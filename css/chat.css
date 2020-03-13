@@ -101,6 +101,8 @@
     0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
   padding: 10px 20px;
   border-radius: 20px;
+  color: white;
+  font-weight: 600;
 }
 
 .incoming-message .message__author {
@@ -112,9 +114,11 @@
 
 .incoming-message .message__bubble {
   border-top-left-radius: 0px;
-  margin-bottom: 20px;
+  background-image: linear-gradient(to right, #0052d4, #4364f7, #6fb1fc);
 }
 
 .sent-message .message__bubble {
   border-bottom-right-radius: 0px;
+  /*facebook messenger gradient !! */
+  background-image: linear-gradient(to left, #00c6ff, #0072ff);
 }
