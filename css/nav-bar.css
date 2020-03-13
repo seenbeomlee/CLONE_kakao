@@ -35,3 +35,22 @@
   border-radius: 9px;
   font-size: 15px;
 }
+
+@keyframes show_navbar {
+  0% {
+    transform: translateY(80px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.nav {
+  transform: translateY(80px);
+  animation: show_navbar 0.5s ease-out forwards;
+  /* forward는 100%에 해당하는 내용을 유지하라는 명령이다.
+  위의 경우에서 forward를 없애면, animation이 시행된 이후,
+  translateY(80px) 상태로 초기화되어서 navbar가 다시 사라진 상태가
+  default가 된다 */
+  animation-delay: 0.5s;
+}
