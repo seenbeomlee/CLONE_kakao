@@ -4,6 +4,27 @@
   align-items: center;
 }
 
+.my__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 39%;
+  margin-right: 12px;
+}
+
+.LynnAvatar__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 39%;
+  margin-right: 12px;
+}
+
+.RecomAvatar__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 39%;
+  margin-right: 12px;
+}
+
 .friend .friend__avatar {
   width: 50px;
   border-radius: 38%;
